@@ -1,5 +1,70 @@
-/*
 
-  ADD YOUR STYLES HERE
+html,
+body {
+  height: 100%;
+}
 
-*/
+body {
+  display: flex;
+  flex-direction: column;
+  background: aliceblue;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: teal;
+}
+
+h1,
+a,
+button {
+  color: white;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.green-background {
+  padding: 150px;
+  background-color: lightseagreen;
+}
+
+.results {
+  display: none;
+  padding: 150px;
+  background-color: lightseagreen;
+  color: white;
+}
+
+.input-label {
+  margin-bottom: 40px;
+}
+
+input {
+  padding: 5px 10px;
+}
+
+button {
+  padding: 8px 10px;
+  background-color: navy;
+  border: none;
+  border-radius: 5px;
+}
+
+.red-background {
+  background-color: red;
+}
+
+.red {
+  color: red;
+}
+

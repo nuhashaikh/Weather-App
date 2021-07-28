@@ -3,17 +3,35 @@
   <head>
     <!-- Include the stylesheet -->
     <link rel="stylesheet" href="./styles.css">
-    <title>jQuery Project</title>
+    <title>My Weather Network</title>
   </head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="./index.js"></script>
   <body>
     <header>
-      <h1>My jQuery Project</h1>
+      <h1>What's the weather?</h1>
+      <nav>
+        <a target="_blank" href="https://www.theweathernetwork.com/">The Weather Network</a>
+        <a target="_blank" href="https://weather.com/">The Weather Channel</a>
+      </nav>
     </header>
     <main>
-      <form>
-        <input type="text" name="search-term" />
-        <button type="submit">Search</button>
-      </form>
+      <section class="green-background">
+        <h1 class="input-label">Input your city below</h1>
+        <form>
+          <input name="cityName" type="text" placeholder="Type here .." />
+          <button type="submit" id="submit-button">Search</button>
+        </form>
+      </section>
+
+      <section class="buttons">
+        <button type="button" class="special-button">Special Button for Searching Again</button>
+      </section>
+
+      <section class="results">
+        I am results
+      </section>
+
     </main>
     <footer>
       <!-- Add footer content -->
