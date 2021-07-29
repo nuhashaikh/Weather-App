@@ -16,7 +16,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
-  background-color: teal;
+  background-color: #ef767a;
 }
 
 h1,
@@ -35,13 +35,13 @@ main {
 
 .green-background {
   padding: 150px;
-  background-color: lightseagreen;
+  background-color: #49beaa;
 }
 
 .results {
   display: none;
   padding: 150px;
-  background-color: lightseagreen;
+  background-color: #49beaa;
   color: white;
 }
 
@@ -54,8 +54,8 @@ input {
 }
 
 button {
-  padding: 8px 10px;
-  background-color: navy;
+  padding: 10px 10px;
+  background-color: #eeb868;
   border: none;
   border-radius: 5px;
 }
