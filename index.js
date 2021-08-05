@@ -24,9 +24,9 @@ function displayData(data, userInput){
 function checkWind(checkWind){
   var wind
   if(checkWind==0){
-    wind= 'Calm'
+    wind= 'calm'
   }else if(checkWind<19){
-    wind= 'Light Winds'
+    wind= 'Light winds'
   }else if(checkWind<29){
     wind='Moderate Winds'
   }else if(checkWind<39){
@@ -47,7 +47,7 @@ function checkWind(checkWind){
     wind='Hurricane'
   }
 
-  $('.results').append("<p> The wind is "+ wind+ " with a speed of "+checkWind +" km/h</p>")
+  $('.results').append("<p> The wind is "+ wind.toLowerCase()+ " with a speed of "+checkWind +" km/h</p>")
 }
 $(document).ready(function() {
     $('form').on('submit', function(event) {

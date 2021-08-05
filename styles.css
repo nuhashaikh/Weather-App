@@ -168,7 +168,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
-  background-color: #32de8a;
+  background-color: #D33F49;
 }
 
 h1,
@@ -187,14 +187,15 @@ main {
 
 .green-background {
   padding: 150px;
-  background-color: #db5375;
+  background-color: black;
 }
 
 .results {
   display: none;
-  padding: 150px;
-  background-color: #db5375;
+  padding: 50px;
+  background-color: black;
   font-weight: bold;
+  font-size: large;
   color: white;
 }
 
@@ -207,8 +208,9 @@ input {
 }
 
 button {
-  padding: 10px 10px;
-  background-color: #d9bbf9;
+  padding: 10px 10px 10px 10px;
+  background-color: #1E3888;
+  font-weight: bold;
   border: none;
   border-radius: 5px;
 }
