@@ -10,5 +10,5 @@ temperature along with the longitude and latitude of the city that is being look
 current time+time difference between the place the user is searching from and the city being searched.
 I also want to add in 7 day forecast section.
 
-#Accessing the project 
+**Accessing the project**
 https://trusting-hypatia-5d953f.netlify.app/ 
